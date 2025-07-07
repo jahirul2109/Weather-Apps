@@ -9,6 +9,7 @@ async function checkOut(city) {
 
     if (response.status == 404) {
         document.querySelector(".error").style.display = "block";
+        document.querySelector(".disply").style.display = "none"
     }
      else {
   var data = await response.json();
@@ -39,7 +40,7 @@ async function checkOut(city) {
 
      }
     document.querySelector(".disply").style.display = "block"
-    document.querySelector(".error").style.display = "hidden"
+    document.querySelector(".error").style.display = "none"
 
      }
    
