@@ -14,9 +14,9 @@
   <body class="bg-slate-800 max-h-[100vh] font-[Poppins]">
     <div class="card md:w-[50%] w-[90%] md:mt-5 my-20 rounded-lg mx-auto text-center py-10 md:px-20 px-3 bg-cyan-300">
       <div class="input-item w-full">
-        <h1 class="text-white mb-5 text-3xl font-bold">Weather App</h1>
-        <div class="client searchBox bg-white rounded-lg md:w-[100%] w-full mx-auto flex justify-between px-5 py-3 text-xl">
-        <input type="text" autofocus  placeholder="Enter your city name" spellcheck="false" class="outline-none input-box border-none"/>
+        <h1 class="text-white mb-5 text-3xl  font-bold">Weather App</h1>
+        <div class="client searchBox bg-white rounded-lg md:w-[100%] w-full mx-auto flex justify-between md:px-5 px-2 py-3 gap-x-3 md:gap-x-0 text-[18px] md:text-xl">
+        <input type="text" autofocus  placeholder="Enter your city name" spellcheck="false" class=" w-[90%] md:w-full outline-none input-box border-none"/>
          <button class=" button-box "><i class="fa-solid fa-magnifying-glass h-[40px] text-center bg-cyan-100 p-2 w-[40px] rounded-full"></i></button>
         </div>
         <h1 class="text-left text-white error my-5 md:text-xl text-xs hidden">Invalid city name </h1>
@@ -24,22 +24,22 @@
      <div class="disply hidden">
          <div class="main-content flex justify-center items-center flex-col">
         <img class="w-icon" src="image/clear.png"  />
-        <h1 class="text-6xl font-bold my-2 text-white temp">27°c</h1>
-        <h1 class="text-3xl text-white city mb-8">New York</h1>
+        <h1 class="md:text-6xl text-4xl font-bold my-2 text-white temp">27°c</h1>
+        <h1 class="text-2xl md:text-3xl text-white city mb-8">New York</h1>
       </div>
       <div class="footer flex justify-between gap-x-5">
         <div class="humandity flex justify-between items-center gap-x-2 md:gap-x-4">
           <div class="img"><img src="image/humidity.png" /></div>
           <div class=" text-white">
-            <h1 class="text-2xl text-white humi-de">50%</h1>
-            <h1>Humidity</h1>
+            <h1 class="md:text-2xl text-xs text-white humi-de">50%</h1>
+            <h1 class="md:text-xs text-[12px]">Humidity</h1>
           </div>
         </div>
         <div class="wind-speed flex justify-between items-center md:gap-x-4 gap-x-2">
           <div class="img"><img src="image/wind.png" /></div>
           <div class=" text-white">
-            <h1 class="text-2xl wind-s text-white">120km/h</h1>
-            <h1>Speed</h1>
+            <h1 class="text-xs md:text-2xl wind-s text-white">120km/h</h1>
+            <h1 class="md:text-xs text-[12px]">Speed</h1>
           </div>
         </div>
       </div>
